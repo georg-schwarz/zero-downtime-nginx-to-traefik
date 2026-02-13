@@ -1,0 +1,8 @@
+ingressClass:
+  isDefaultClass: false
+
+providers:
+  kubernetesIngress:
+    enabled: true
+  kubernetesCRD:
+    enabled: true

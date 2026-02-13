@@ -1,0 +1,9 @@
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: strip-sample-app-prefix
+  namespace: sample-app
+spec:
+  stripPrefix:
+    prefixes:
+      - /sample-app
